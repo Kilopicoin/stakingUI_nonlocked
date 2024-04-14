@@ -1,0 +1,481 @@
+.App {
+  text-align: center;
+}
+
+p {
+ margin-top: 2px;
+ margin-bottom: 3px;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.button-64:hover {
+  align-items: center;
+  background-image: linear-gradient(144deg, #c75a11, #1de76a 50%, #b3b620);
+
+  box-shadow: rgba(199, 21, 44, 0.2) 0 15px 30px -5px;
+  color: #ffffff;
+  
+  font-family: Phantomsans, sans-serif;
+  justify-content: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  
+  cursor: pointer;
+}
+
+.button-64 {
+  background-image: linear-gradient(144deg, #d4adfc, #1d267d 50%, #5c469c);
+  padding: 8px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.motherDiv {
+  background: rgba(212, 173, 252, 0.6);
+  border: 2px solid black;
+  border-radius: 50px;
+  margin-top: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 300px;
+  padding-bottom: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topSide {
+  background: rgba(212, 173, 252, 0.6);
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+  border: 2px solid black;
+}
+.topSidekutu {
+  background: rgba(212, 173, 252, 0.6);
+  margin-top: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.topSidebutton {
+  padding-left: 42%;
+  padding-right: 42%;
+}
+
+.downSide {
+  background: rgba(212, 173, 252, 0.6);
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 120px;
+  border-radius: 50px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+/*.bottomSide {
+  background: rgba(252, 250, 250, 0.6);
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 50px;
+  text-align: center;
+  border: 2px solid rgb(0, 0, 0);
+}*/
+
+.tableTop {
+  width: 100%;
+  height: 100%;
+
+  margin-top: 1%;
+  padding: 10px;
+  background: #5c469c;
+  border: 1px solid black;
+  border-radius: 50px;
+  margin-bottom: 1%;
+  font-size: 20px;
+  margin-left: 0%;
+  font-weight: 700;
+  display: inline-grid;
+  align-items: stretch;
+}
+
+.tableTop th {
+  text-align: center; /* Center-align content horizontally */
+  padding: 10px; /* Add padding for better visibility */
+}
+
+.stacksDiv {
+  width: 100%;
+  height: 100%;
+
+  margin-top: 1%;
+  padding: 10px;
+  background: #5c469c;
+  border: 1px solid black;
+  border-radius: 50px;
+  margin-bottom: 1%;
+  font-size: 20px;
+  margin-left: 0%;
+  font-weight: 700;
+  display: inline-grid;
+  align-items: stretch;
+}
+#no {
+  width: 14%;
+}
+#startDate {
+  width: 12%;
+}
+#startDateC {
+  width: 12%;
+}
+#adress {
+  padding-right: 1px;
+}
+#amount {
+  width: 12%;
+}
+
+#amountC {
+  width: 12%;
+}
+
+#unstake {
+  width: 12%;
+}
+#unstakeC {
+  width: 12%;
+}
+#cPrize {
+  width: 12%;
+}
+#cPrizeB {
+  width: 12%;
+}
+#LPR {
+  width: 12%;
+}
+#LPRB {
+  width: 12%;
+}
+.table {
+  margin-left: 0%;
+  border-collapse: collapse;
+  width: 45%;
+}
+.table td {
+  text-align: center; /* Center-align content horizontally */
+  padding: 10px; /* Add padding for better visibility */
+}
+
+.input {
+  flex-direction: row;
+  align-items: center;
+  max-width: 120px;
+  background: #d4adfc;
+  color: black;
+  border-radius: 15px;
+  box-shadow: 0px -1px 19px 2px rgba(0, 0, 0, 1);
+  font-size: 18px;
+  font-weight: 800;
+}
+
+
+.td {
+  display: ruby-text-container;
+  text-align: center;
+  flex-grow: 1;
+}
+.putStake {
+  margin-bottom: 1rem;
+  display: flex;
+  margin-left: 0%;
+  background: rgba(92, 70, 156, 0.6);
+  text-align: center;
+  width: 475px;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 50px;
+  height: 40px;
+}
+.stake-button {
+  width: 100px;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 1rem;
+}
+
+#stakeInput {
+  max-width: 100%;
+  background: #d4adfc;
+  color: black;
+  border-radius: 15px;
+  box-shadow: 0px -1px 19px 2px rgba(0, 0, 0, 1);
+  font-size: 18px;
+  font-weight: 800;
+  margin-left: 3px;
+}
+.top {
+  font-size: 20px;
+  font-weight: 900;
+  color: rgb(12, 19, 79);
+  margin-bottom: 15px;
+}
+h1 {
+  font-weight: 700;
+  color: #0c134f;
+  margin-top: 9px;
+  margin-bottom: 3px;
+}
+@media only screen and (max-width: 1720px) and (min-width: 720px) {
+  .button-64 {
+    font-size: 16px;
+  }
+  .table {
+    margin-left: 0%;
+  }
+  .stacksDiv {
+    margin-left: 0%;
+  }
+  .tableTop {
+    margin-left: 0%;
+  }
+  .motherDiv {
+    padding: 30px;
+  }
+  .putStake {
+    margin-left: 0%;
+  }
+}
+@media only screen and (max-width: 720px) {
+
+  p {
+    margin-top: 2px;
+    margin-bottom: 3px;
+    font-size: 16px;
+   }
+
+  .topSide {
+    width: 90%;
+    margin-top: 0%;
+    font-size: 8px;
+    margin-left: 2%;
+    padding-left: 3%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  .topSidebutton {
+    padding-left: 26%;
+    padding-right: 26%;
+  }
+
+  .motherDiv {
+    width: 90%;
+    margin-top: 0%;
+    font-size: 8px;
+    margin-left: 2%;
+    padding-left: 3%;
+    padding-right: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(21, 34, 78);
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(139, 46, 119);
+  }
+  .tableTop {
+    font-size: 12px;
+    margin-left: 0%;
+    padding: 0;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+
+  .stacksDiv {
+    margin-left: 0%;
+    width: 100%;
+    font-size: 12px;
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+  .td {
+    width: auto;
+    padding-left: 0px;
+  }
+  .tableTop th {
+    padding: 1px;
+  }
+  .table td {
+    padding: 1px;
+  }
+  #cPrize {
+    padding-left: 35px;
+  }
+  #unstake {
+    padding-left: 15px;
+  }
+  .input {
+    width: 75px;
+    font-size: 12px;
+  }
+  #stakeInput {
+    width: 120px;
+    font-size: 18px;
+  }
+  .putStake {
+    margin-left: 1%;
+    width: 200px;
+  }
+  .button-64 {
+    font-size: 13px;
+    padding: 1px;
+    width: 75px;
+  }
+  #startDate {
+    padding-left: 30px;
+  }
+  #LPR {
+    padding-left: 25px;
+  }
+  #amount {
+    padding-left: 3px;
+  }
+
+  .table {
+    margin-left: 0%;
+    width: 90%;
+  }
+}
+
+.lds-ellipsis {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: inline-block;
+  width: 80px;
+  height: 10px;
+}
+
+.lds-ellipsis div {
+  position: absolute;
+  top: 33px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #fff;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
